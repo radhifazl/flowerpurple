@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&family=Chivo:wght@300;400;700&family=Dancing+Script:wght@400;600&family=Sahitya:wght@400;700&family=Scada:wght@400;700&display=swap');
+
+
+:root {
+    --first-font: 'Scada', sans-serif;
+    --second-font: 'Sahitya', serif;
+    --third-font: 'Cabin', sans-serif;
+    --fourth-font: 'Chivo', sans-serif;
+    --fifth-font: 'Dancing Script', cursive;
+
+    --primary-color: #59515D;
+    --secondary-color: #807585;
+    --tertiary-color: #898989;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--first-font);
+    color: var(--secondary-color);
+}
+
+.title {
+    color: var(--primary-color);
+}

@@ -1,26 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <cover-page />
+  <new-header/>
+  <roundown-acara />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CoverPage from './components/CoverPage.vue'
+import NewHeader from './components/NewHeader.vue'
+import RoundownAcara from './components/RoundownAcara.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NewHeader,
+    RoundownAcara,
+    CoverPage
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
